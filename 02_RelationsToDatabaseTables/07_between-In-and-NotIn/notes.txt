@@ -1,0 +1,53 @@
+
+
+Between, In, and NotIn
+
+student table:{
+    studentId,
+    firstname,
+    lastname,
+    gender,
+    email,
+},
+
+Campus_Housing:{
+    studentId,
+    dormitoryName,
+    ApartmentNumber
+}
+
+'BETWEEN' -> BETWEEN num1 and num2 //INCLUSIVE
+find students whose  ApartmentNumber is greater than 200 & less than 400
+    select studentId from Campus_Housing where apartmentNumber > 200 and apartmentNumber < 400;
+    select studentId from campus_housing where apartmentNumber between 201 and 399;
+    ** 'between' is INCLUSIVE, so >200 and <400 is between 201 and 399**
+
+'IN' -> IN(value1, value2, value3);
+find student's apartment number where first names are janani or swetha
+    select apartmentNumber from students s, campus_housing c 
+    where (firstname IN ('janani', 'swetha') and 
+        s.studentId = c.studentId;
+
+'NOT IN' -> NOT IN('janani', 'swetha'); 
+find student's apartment numbers for students for students not 'janani' or 'swetha'
+    select apartmentNumber from students s, campus_housing c 
+    where firstname notIn('janani', 'swetha') and
+        s.studentId = c.studentId;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

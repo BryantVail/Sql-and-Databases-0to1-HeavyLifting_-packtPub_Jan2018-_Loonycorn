@@ -1,0 +1,35 @@
+
+
+
+
+
+
+
+SQL
+    Structured Query Language
+    allows
+        create, update, & delete 
+            tables,
+            records,
+            attributes,
+        aggrigate,
+        group,
+        filter,
+        sort,
+        constraints
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

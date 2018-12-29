@@ -1,0 +1,102 @@
+"What info in a database"
+
+anything!
+
+ENTITIES:[
+    school:{
+        students,
+        teachers,
+        classes,
+        staff,
+        sports,
+
+    },//end school
+
+    bank:{
+        bank accounts,
+        customers,
+        branches,
+        transactions,
+    },
+
+    uber:{
+        rides,
+        drivers,
+        customers,
+
+    },
+]
+
+ATTRIBUTE domain or range of values:[
+
+    {
+        singleValued: onlye 1 value for this attribute,
+        "examples":[
+            SSN,
+            branchCode,
+
+        ]
+    },
+    {
+        "simple":"atomic, or cannot be divided further",
+        "examples":[
+            phone number,
+            email address,
+            branch code,
+            school class code
+        ]
+    },
+    {
+        "multi-valued":multiple values allowed,
+        "examples":[
+            "phoneNumber",
+            "email",
+            "
+        ]
+    },
+    {
+        derived:"made from calculation or in correspondance with existing values",
+        "examples":[
+            "age":{
+                dateOfBirth
+            }
+        ]
+    },
+    {
+        "composite":"made up from other attributes, mushed together in a logical way",
+        "examples":[
+            "name":[
+                first,
+                middle,
+                last
+            ],
+            "address":{
+                "streetNumber",
+                streetName,
+                city,
+                state,
+                zip,
+            }
+        ]
+    }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

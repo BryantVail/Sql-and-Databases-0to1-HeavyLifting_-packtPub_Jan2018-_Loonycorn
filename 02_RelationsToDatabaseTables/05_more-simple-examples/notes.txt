@@ -1,0 +1,41 @@
+
+
+student table:{
+    studentId,
+    firstname,
+    lastname,
+    gender,
+    email,
+},
+
+Campus_Housing:{
+    studentId,
+    dormitoryName,
+    ApartmentNumber
+}
+
+find studentIds where student lives off campus
+    select studentId from campus_housing where dormitoryname is NULL;
+
+find emails where student lives off campus
+    select email from students, campus_housing where dormitoryname is null and campus_housing.studentId = students.studentId 
+        
+    shorterWay: select email from students s, campus_housing c 
+        where dormitoryname is null 
+        and s.studentId = c.studentId;
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+

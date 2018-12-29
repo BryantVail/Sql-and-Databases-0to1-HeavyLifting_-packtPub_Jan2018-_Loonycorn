@@ -1,0 +1,75 @@
+
+
+Cardinality of Relationships:
+_____________________________________________________
+
+    entitySet X             EntitySet Y
+    -----------             -----------
+    Barack Obama            Angelina Jolie
+    Brad Pitt               Michelle Obama
+    Bill Clinton            Victoria Beckham
+    David Beckham           Hillary Clinton
+
+    relationship: 
+        "married to", 
+            1:1
+
+_____________________________________________________            
+
+    entitySet X             EntitySet Y
+    -----------             -----------
+    Michelle Obama          Sasha Obama
+    Angelina Jolie          Malia Obama
+                            Shiloh
+                            Vivienne
+                            Pax
+                            Zahara
+
+    relationship: 
+        "have children",
+            1:many,
+            mother can have MANY, 
+            child can only have ONE mother
+
+_____________________________________________________
+
+entitySet X             EntitySet Y
+-----------             -----------
+Aamir Khan              Deepika Padukone
+Shah Rukh Khan          Madhuri Dixit
+                        Kareena Kapoor
+
+    relationship: 
+        Acted With
+            many: many
+
+_____________________________________________________
+^Cardinality: 
+    defines the number of entities in one entity set which can be associated with a number of entities in another entity set via a relationship set.                                            
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

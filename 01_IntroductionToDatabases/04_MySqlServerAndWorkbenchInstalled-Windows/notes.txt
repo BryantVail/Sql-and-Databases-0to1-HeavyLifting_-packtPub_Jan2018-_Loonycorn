@@ -1,0 +1,21 @@
+
+mySQL installer windows
+
+mySQL command line
+    "root@localhost:3306"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

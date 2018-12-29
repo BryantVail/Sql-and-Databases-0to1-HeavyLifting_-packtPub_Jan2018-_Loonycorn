@@ -1,0 +1,57 @@
+
+
+student table:{
+    id,
+    firstname,
+    lastname,
+    gender,
+    email,
+},
+
+Campus_Housing:{
+    studentId,
+    dormitoryName,
+    ApartmentNumber
+}
+
+Data types:
+    every column is specified with data type parameters
+    types:[
+        char: [
+            fixed length strings
+            character limit
+        ],
+        varChar:[
+            variable length strings,
+            "BETTER" to use this than char
+        ],
+        int,
+        datetime:   timestamp,
+        Date:       without a time value,
+        time:       time, no date,
+        decimal:    float,
+        blob:       specific object, binary large objects, eg: objects,
+    ]
+        
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

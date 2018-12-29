@@ -1,0 +1,53 @@
+
+
+student table:{
+    studentId,
+    firstname,
+    lastname,
+    gender,
+    email,
+},
+
+Campus_Housing:{
+    studentId,
+    dormitoryName,
+    ApartmentNumber
+}
+
+find all emailIds
+    select email from students where email is not NULL;
+
+find all female people
+    select email from students where gender = 'F' and email is not NULL;
+
+find email from student with id of 4
+    select email from students where studentId = 4;
+
+find email of student where the id is not 4
+    select email from student where studentId <> 4;
+
+find email where studendId is greater than 4
+    select email from student where studentId >4;
+    result: "empty table",
+
+find email where studentId <= 4
+    select email from students where studentId <=4;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+repository of info that can be gathered quickly,
+
+data is ubiquitous
+    everything is stored somewhere,
+
+computing performance
+    50's & 60's 
+    moore's law
+        number of circuits on a chip will double every 2 years,
+        proved true for a long time (may have spoken it into existence)
+    smart phone 
+        has as much 'computing power' as a Mainframe of 50+ years ago
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

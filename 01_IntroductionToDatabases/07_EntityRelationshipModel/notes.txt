@@ -1,0 +1,47 @@
+
+how do the entities interact
+    visualize & imagine the structure
+        BEFORE
+            designing permanent storage
+    
+E-R Model:
+    diagrams to logically represent data
+    E: Entity
+    R: Relationship
+    Model
+    ModelingTheEntityRelationship:{
+        "entity":       "square",
+        "attributes":   "ellipse/circle",
+        "line":         "indicates the entity association",
+        "composite":    "additional ellipses/circles, forming a tree like structure",
+        "multi-valued": "double ellipse/circle",
+        "derived":      "dashed outline",
+
+    }
+
+Uber:{
+    Driver:{
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

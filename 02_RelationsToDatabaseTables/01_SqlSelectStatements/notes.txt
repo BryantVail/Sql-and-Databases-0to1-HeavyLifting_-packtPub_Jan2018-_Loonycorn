@@ -1,0 +1,45 @@
+
+SELECT STATEMENT
+    student table
+        columns
+            id,
+            firstname,
+            lastname,
+            gender,
+            email,
+        
+     matrix
+        rows
+        FROM
+        columns
+        in 
+        tables   
+
+Select Query Questions to ask:
+    which rows,
+    and
+    which columns
+    and
+    which tables
+
+    question: "find students that are female, and return their email address",
+        Query: "select email from student where gender = 'F'"
+
+    Question: "
+        Query:"select email from students where gender = 'F' AND firstname = 'janani';
+
+        Query:"select firstname, lastname from students where gender = "M";
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+
+Relationships:
+    customer ->     Grocery Store
+            shopsAt = relationship,
+
+    Student ->         School
+        Takes Classes/Enrolls in
+    
+    relationship:
+        association or connection between 2 or more entities, 
+
+    Descriptive Attributes
+        attributes which describe the relationship.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

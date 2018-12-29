@@ -1,0 +1,63 @@
+So far:[
+    "entities",
+    "attributes",
+
+]
+
+now:
+    Association of the info with a specific entity.
+        Uniquely identify entities
+    Key:
+        Single attribute or combination that SHOULD BE unique.
+        a basic requirement of the real world,
+            entities are based on the real world.
+
+Entity:
+    possibleKeys:
+        email,
+        phone,
+        ssn,
+        employeeId,
+    poorKeys:
+        gender,
+        race,
+        hairColor,
+        firstname,
+        LastName,
+Key:
+    an attribute or set of attributes which uniquely identify an entity in an entity set
+SuperKey:
+    sufficient to distinguish one record/tuple from another
+    examples:[email, phone, email+ phone, ssn + name (other keys)]
+
+CandidateKey:
+    minimal set of attributes to form a key
+    examples:[email, ssn, ]
+
+PrimaryKey:
+    implies user choice (database designer)
+    designated key ;)
+    options:
+        super
+        candidate
+
+THIS CLASS
+    mostly concerned with primary key
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

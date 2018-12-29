@@ -1,0 +1,47 @@
+
+E-R Model for relationships
+    Diamond: relationship, 
+        "Married to",
+
+    Total Participation:
+        every entity in a set is in the relationship
+        double line connector to the diamond
+    
+    Partial Participation:
+        not all entities are involved
+        single line connector to the diamond
+    
+    Hierarchical Representation:
+        Generalization
+            separate entity sets
+                common characteristics
+            example: 
+                Dog, cat, hamster,
+                    common: pets,
+                        owner,
+                        name,
+                        feed,
+        Specialization:
+            pet 'is-a'
+                dog,
+                cat,
+                hamster    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

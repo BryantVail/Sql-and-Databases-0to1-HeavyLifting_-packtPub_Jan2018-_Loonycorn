@@ -1,0 +1,41 @@
+multi-column
+
+student table:{
+    studentId,
+    firstname,
+    lastname,
+    gender,
+    email,
+},
+
+Campus_Housing:{
+    studentId,
+    dormitoryName,
+    ApartmentNumber
+}
+
+
+find studentId, first, last, for akbar hall students
+    select  students.studentId, firstname, lastname, 
+    from    students s, campus_housing c 
+    where   dormitoryName = 'Akbar Hall' and
+        s.studentId = c.studentid;
+
+find studentId, first, last, for female students
+    select  students.studentId, firstname, lastname, campus_housing.dormitoryName
+    from    students s, campus_housing c 
+    where   s.gender = 'F' and 
+            s.studentId = c.studentId;
+
+
+
+
+
+
+
+
+
+
+
+
+

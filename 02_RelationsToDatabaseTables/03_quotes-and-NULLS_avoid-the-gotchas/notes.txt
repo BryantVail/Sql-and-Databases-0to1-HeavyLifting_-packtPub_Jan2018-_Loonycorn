@@ -1,0 +1,67 @@
+
+Data Types: 
+    SINGLE quotes: 
+        char,
+        varchar,
+        datetime,
+        date,
+        time,
+
+    ?single quote in a string?
+        select studentId from campus_housing where
+            dormitoryName = 'akbar's house';
+            //use an escape character to use the single quotes
+            dormitoryName = 'akbar\'s house';
+
+            //sometimes
+                the escape character for 
+                    SINGLE QUOTE is 
+                    ANOTHER 
+                    single quote!
+
+    NULL:
+        campus_housing has two columns that allow NULL.
+        definition: value does not exist, 
+            doesNotMean: false, "", or zero
+        ANY column can have NULL
+            -provided there is not a constraint
+        
+        question:"find students where the dorm name is NULL"
+            //wrong, NULL does not '=' a value, so we cannot check with '='
+            query:"select studentId from campus_housing where dormitoryName = NULL;"
+            //correct
+            select studentId from campus_housing where dormitoryname IS null
+            //key 'IS' word
+
+        question:"find students where dormitoryname is not NULL
+        queries:[
+            {
+                query:"select studentId from campus_housing where dormitoryname IS NOT NULL;",
+                desc:"this is how to check if something IS NOT equal to NULL"
+            }
+        ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

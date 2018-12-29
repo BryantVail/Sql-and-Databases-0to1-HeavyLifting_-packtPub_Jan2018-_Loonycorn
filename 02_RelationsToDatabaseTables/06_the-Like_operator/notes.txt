@@ -1,0 +1,50 @@
+
+'like' operator
+
+student table:{
+    studentId,
+    firstname,
+    lastname,
+    gender,
+    email,
+},
+
+Campus_Housing:{
+    studentId,
+    dormitoryName,
+    ApartmentNumber
+}
+
+    find emails where string 'loonycorn' is in the email
+        select email from students where email like '%loonycorn%';
+        '%' is a wildcard of anything of any length. 
+
+    another WILDCARD 
+        '_', underscore
+            exactly 1(one) character
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

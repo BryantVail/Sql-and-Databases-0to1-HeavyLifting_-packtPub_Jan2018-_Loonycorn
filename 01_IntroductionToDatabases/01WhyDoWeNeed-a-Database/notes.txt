@@ -1,0 +1,79 @@
+"why do we need a database"?
+
+planning a large E-Commerce Website
+    a lot of technology
+        many systems
+    UserInterface
+    SearchSystem
+    Recommendations
+    Cart,checkout, payment
+    OrderManagement
+        Inventory
+            keeps track of:
+                purchases
+                invoices for purchased merch 
+        orderStatus
+        aka: OMS (order management system)
+        
+
+    SupplyChain/Logistics
+    Catalog of Products
+    Seller systems  
+        onboard merchants
+            products add
+
+
+workCorrectly
+    order placed ONLY when
+        product available
+    reduce Inventory
+    correct product verification
+    validate customer
+ALWAYS
+    NEVER lose information
+    back up for disasters
+    be secure
+    private
+    multiple people access the information at the same time
+    make sense to everyone
+
+checks belong in the 
+    Database Management System
+Databse Requirements: [
+    correctness,
+    validity,
+    security,
+    durability,
+    recoverability,
+    atomicity
+    consistency
+    concurrency,
+    integrity
+]
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

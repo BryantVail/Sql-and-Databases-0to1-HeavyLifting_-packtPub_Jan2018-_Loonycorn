@@ -1,0 +1,59 @@
+
+
+working with dates
+
+dbms specific for dates
+MySQL
+    dates
+        current 
+            now()
+                '2016-JAN-25 13:33:34'
+            curdate()
+                '2016-JAN-25'
+            curtime()
+                '13:33:11'
+        splitting 
+            year, month, & date of the highest revenue
+            find: highest revenue, return the month
+                select  EXTRACT(YEAR FROM sales_data.date) AS rev_year,
+                        EXTRACT(MONTH FROM sales_data.date) AS rev_month,
+                        EXTRACT(DAY FROM sales_data.date) AS rev_day,
+                from    sales_data
+                where   revenue = (select MAX(revenue) FROM sales_data);
+            ALSO: allows for 
+                week, quarter, hour, many other parts of the date.
+        
+        creating 
+            from strings
+                select * from sales_data where date = '18-JAN-2016'
+            create date from another date
+
+            
+        arithmetic
+            dateDiff
+                takes 2 dates, finds the number of days/years/... between them
+                select DATEDIFF(YEAR, '2014-01-01', '2015-01-01') AS years_elapsed;
+            DATE_ADD()
+                add 2 dates
+                select DATE_ADD('2016-01-18, INTERVAL 1 DAY) AS tomorrow
+            DATE_SUB()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
